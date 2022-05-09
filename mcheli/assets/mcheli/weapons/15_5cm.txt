@@ -1,0 +1,29 @@
+DisplayName = 155mm[AP]
+Type = MachineGun1
+ModelBullet = 91ap_15_5
+Power = 1000
+Acceleration = 5.7
+Explosion = 4
+ExplosionBlock = 3
+ExplosionInWater = 40
+HeatCount = 50
+MaxHeatCount = 145
+Flaming = false
+Sight = MoveSight
+Delay = 15
+Round = 3
+ReloadTime = 125
+SoundDelay = 4
+SoundPitch = 0.3
+Sound = cannon_1_snd
+Accuracy = 1.0
+DamageFactor = tank, 10.0
+DamageFactor = plane, 10.0
+DamageFactor = helicopter, 5.0
+Piercing = 10
+
+
+MaxAmmo = 60
+SuppliedNum = 20
+Item =  64, iron_ingot
+Item =  64, gunpowder

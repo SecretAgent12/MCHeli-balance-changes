@@ -1,0 +1,32 @@
+DisplayName = Krupp C/34 40.6cm HE
+Type = MachineGun1
+ModelBullet = 91ap_46
+Power = 1000
+Acceleration = 8
+AccelerationInWater = 4.0
+Explosion = 16
+ExplosionBlock = 8
+ExplosionInWater = 8
+Flaming = true
+Sight = None
+Delay = 100
+SoundPitch = 0.8
+SoundVolume = 15
+Sound = cannon_1_snd
+Gravity = -0.035
+Accuracy = 1.2
+DisplayMortarDistance = true
+
+DamageFactor = tank, 20.0
+DamageFactor = vehicle, 20.0
+DamageFactor = plane, 20.0
+DamageFactor = helicopter, 20.0
+DisplayMortarDistance = true
+
+; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
+RecoilBufCount = 40, 5
+
+MaxAmmo = 30
+SuppliedNum = 10
+Item =  64, iron_ingot
+Item =  64, gunpowder

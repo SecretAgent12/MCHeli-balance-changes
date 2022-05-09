@@ -1,0 +1,15 @@
+DisplayName = Kh-35
+Type = ASMissile
+Power = 1820
+Acceleration = 4.0
+Explosion = 8
+Flaming = true
+Sight = MoveSight
+Delay = 300
+Sound = missile_2_snd
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  32, iron_ingot
+Item =  32, gunpowder
+Item =  32, redstone

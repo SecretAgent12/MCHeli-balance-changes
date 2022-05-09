@@ -1,0 +1,21 @@
+DisplayName = R-73M2 AAM
+Type = AAMissile
+Power = 1420
+Acceleration = 4
+Explosion = 4
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 80
+Round = 2
+LockTime = 10
+ProximityFuseDist = 1
+Sound = missile_1_snd
+
+DamageFactor = tank, 4
+Piercing = 2
+MaxAmmo = 16
+SuppliedNum = 4
+Item =  16, iron_ingot
+Item =  16, gunpowder
+Item =  24, redstone

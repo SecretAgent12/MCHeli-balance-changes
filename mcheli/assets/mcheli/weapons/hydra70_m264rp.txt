@@ -1,0 +1,17 @@
+DisplayName = Hydra 70mm M264RP
+Type = MkRocket
+Power = 1000
+Acceleration = 3.0
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Sound = rocket_snd
+Delay = 300
+DamageFactor = tank, 5.0
+DamageFactor = player, 5.0
+Piercing = 4
+MaxAmmo = 5
+SuppliedNum = 5
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

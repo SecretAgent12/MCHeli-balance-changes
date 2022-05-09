@@ -1,0 +1,26 @@
+DisplayName = Hydra M255E1
+Type = Rocket
+Power = 100
+Acceleration = 4.0
+Explosion = 1
+Flaming = false
+Sound = rocket_snd
+Sight = MoveSight
+Delay = 10
+ReloadTime = 110
+Round = 19
+Bomblet = 12
+BombletSTime = 6
+BombletDiff = 0.8
+DamageFactor = tank, 9.0
+DamageFactor = player, 5.0
+DamageFactor = plane, 5.0
+Piercing = 5
+
+ModelBullet = hydra70
+ModelBomblet = cbc
+
+MaxAmmo = 19
+SuppliedNum = 4
+Item =  14, iron_ingot
+Item =  8, gunpowder

@@ -1,0 +1,23 @@
+DisplayName = GBU-31
+Type = ASMissile
+Power = 1320
+Acceleration = 1.7
+Explosion = 6
+ExplosionBlock = 3
+Flaming = true
+Sight = MoveSight
+Delay = 35
+Round = 2
+ReloadTime = 190
+SoundVolume = 3
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = gbu31
+Gravity = -0.01
+DisableSmoke = true
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  24, iron_ingot
+Item =  24, gunpowder
+Item =  24, redstone

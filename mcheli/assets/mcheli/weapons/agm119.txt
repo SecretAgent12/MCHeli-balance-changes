@@ -1,0 +1,15 @@
+DisplayName = AGM-119B Penguin
+Type = ASMissile
+Power = 800
+Acceleration = 4.0
+Explosion = 9
+Flaming = true
+Sight = MoveSight
+Delay = 350
+Sound = missile_2_snd
+DamageFactor = tank, 2.0
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  18, iron_ingot
+Item =  24, gunpowder
+Item =  18, redstone

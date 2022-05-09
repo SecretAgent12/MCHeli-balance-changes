@@ -1,0 +1,30 @@
+DisplayName = AGM-65 Maverick
+Type = ATMissile
+Power = 5000
+Acceleration = 4.0
+Explosion = 6
+Flaming = true
+Sight = MoveSight
+Delay = 260
+LockTime = 15
+ModelBullet = agm65e
+Sound = missile_2_snd
+DamageFactor = tank, 2.75
+DamageFactor = player, 0.8
+DamageFactor = vehicle, 1.2
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  28, iron_ingot
+Item =  34, gunpowder
+Item =  34, redstone
+
+;DEBUG:テスト用
+;目標から30m以内に入ると爆発
+;ProximityFuseDist = 30
+
+;DEBUG:テスト用
+;15Tick後に12個の子弾をばらまく
+;Bomblet = 12
+;BombletSTime = 15
+;BombletDiff = 1.1
+;ModelBomblet = cbc

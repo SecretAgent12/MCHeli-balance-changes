@@ -1,0 +1,25 @@
+DisplayName = Hydra 240mm Rocket
+Type = Rocket
+Power = 2000
+ModelBullet = hydra70
+Acceleration = 5.0
+Explosion = 20
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 1
+ReloadTime = 610
+Round = 1
+DamageFactor = helicopter, 3.0
+DamageFactor = player, 10.0
+DamageFactor = planes, 3.0
+DamageFactor = tank, 6.0
+Piercing = 5
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+MaxAmmo = 2
+SuppliedNum = 5
+Item =  90, iron_ingot
+Item =  90, gunpowder
+Item =  24, diamond

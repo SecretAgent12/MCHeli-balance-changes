@@ -1,0 +1,37 @@
+DisplayName = GBU-57
+Type = Bomb
+Power = 300000
+Acceleration = 2
+AccelerationInWater = 2.0
+Explosion = 5000
+ExplosionBlock = 200
+ExplosionInWater = 200
+Flaming = true
+Sight = MoveSight
+Delay = 120
+Round = 2
+ReloadTime = 240
+SoundVolume = 50
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = gbu57
+ModelBomblet = gbu57
+Gravity = -0.01
+DisableSmoke = true
+Piercing  = 20
+
+Bomblet = 500
+BombletSTime = 260
+
+BombletDiff = 0.5
+DamageFactor = helicopter, 100.0
+DamageFactor = plane,      100.0
+DamageFactor = vehicle,    100.0
+DamageFactor = tank,       100.0
+DamageFactor = player, 100.0
+
+MaxAmmo = 8
+SuppliedNum = 2
+Item =  256, iron_ingot
+Item =  256, gunpowder
+Item =  64, diamond

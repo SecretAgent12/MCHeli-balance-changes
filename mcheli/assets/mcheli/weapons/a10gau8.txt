@@ -1,0 +1,15 @@
+DisplayName = A-10 GAU-8 Avenger
+Type = CAS
+Power = 320
+Acceleration = 4.0
+Explosion = 2
+ExplosionBlock = 5
+Flaming = false
+Sight = None
+Delay = 300
+DamageFactor = tank, 2.0
+MaxAmmo = 3
+SuppliedNum = 1
+Item =  18, iron_ingot
+Item =  18, gunpowder
+Item =  18, redstone
